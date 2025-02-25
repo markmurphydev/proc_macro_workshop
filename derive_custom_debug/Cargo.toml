@@ -1,0 +1,16 @@
+[package]
+name = "derive_custom_debug"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[[tests]]
+name = "tests"
+path = "tests/progress.rs"
+
+[dependencies]
+quote = "1.0.38"
+syn = "2.0.98"
+trybuild = { version = "1.0.103", features = ["diff"] }
