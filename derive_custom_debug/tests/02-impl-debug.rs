@@ -17,7 +17,7 @@
 
 use derive_custom_debug::CustomDebug;
 
-#[derive(CustomDebug)]
+#[derive(Debug)]
 pub struct Field {
     name: &'static str,
     bitmask: u8,

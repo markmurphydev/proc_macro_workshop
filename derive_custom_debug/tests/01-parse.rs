@@ -15,6 +15,7 @@
 //     https://github.com/dtolnay/syn/tree/master/examples/heapsize
 
 use derive_custom_debug::CustomDebug;
+use std::fmt::Debug;
 
 #[derive(CustomDebug)]
 pub struct Field {
